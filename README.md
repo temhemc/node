@@ -56,5 +56,12 @@ Base is a secure, low-cost, developer-friendly Ethereum L2 built on Optimism's [
 ## Troubleshooting
 For support please join our [Discord](https://discord.gg/buildonbase) post in `🛠｜node-operators`. You can alternatively open a new GitHub issue.
 
+## Useful Extensions & Resources
+
+- **[BaseScan](https://basescan.org):** Monitor network transactions and blocks in real-time.
+- **[Base Status](https://status.base.org):** Check the current operational status of the Base network.
+- **[L2Beat - Base](https://l2beat.com/scaling/projects/base):** Comprehensive analytics and risk assessment for Base.
+- **[Optimism Governance](https://community.optimism.io):** Participate in the governance of the OP Stack.
+
 ## Disclaimer
 THE NODE SOFTWARE IS PROVIDED "AS IS" WITHOUT WARRANTY OF ANY KIND. Usage is subject to applicable laws and regulations. For more information, visit [docs.base.org](https://docs.base.org/).
