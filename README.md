@@ -21,7 +21,19 @@ Base is a secure, low-cost, developer-friendly Ethereum L2 built on Optimism's [
    OP_NODE_L1_ETH_RPC=<your-preferred-l1-rpc>
    OP_NODE_L1_BEACON=<your-preferred-l1-beacon>
    OP_NODE_L1_BEACON_ARCHIVER=<your-preferred-l1-beacon-archiver>
-    ```
+   ```
+#### L1 RPC Configuration Guide
+To ensure proper synchronization, set the `OP_NODE_L1_RPC_KIND` according to your provider:
+
+| Provider | `OP_NODE_L1_RPC_KIND` Value |
+| :--- | :--- |
+| **Alchemy** | `alchemy` |
+| **QuickNode** | `quicknode` |
+| **Infura** | `infura` |
+| **Self-Hosted Geth** | `debug_geth` |
+| **Erigon** | `erigon` |
+| **Standard/Other** | `standard` |
+
 4. Start the node:
    ```bash
    # For mainnet (default):
@@ -62,6 +74,7 @@ For support please join our [Discord](https://discord.gg/buildonbase) post in `ð
 - **[Base Status](https://status.base.org):** Check the current operational status of the Base network.
 - **[L2Beat - Base](https://l2beat.com/scaling/projects/base):** Comprehensive analytics and risk assessment for Base.
 - **[Optimism Governance](https://community.optimism.io):** Participate in the governance of the OP Stack.
+- **[Chainlist - Ethereum](https://chainlist.org/chain/1):** Find alternative L1 RPC endpoints if your provider has downtime.
 
 ## Disclaimer
 THE NODE SOFTWARE IS PROVIDED "AS IS" WITHOUT WARRANTY OF ANY KIND. Usage is subject to applicable laws and regulations. For more information, visit [docs.base.org](https://docs.base.org/).
